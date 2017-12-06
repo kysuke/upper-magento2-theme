@@ -1,6 +1,6 @@
 {
     "name": "upper-softwares/base",
-    "description": "N/A",
+    "description": "Magento 2 theme by Upper Softwares",
     "require": {
         "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
         "magento/theme-frontend-blank": "100.2.*",
@@ -12,10 +12,10 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "files": [
             "registration.php"
         ]
-    }
+    },
+    "minimum-stability": "dev"
 }
